@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json())
 app.use(cors(
   // Definido com permissão para acessar a api
-  // {origin: ''}
+  // {origin: 'http://127.0.0.1:5173'}
 ))
 
 const prisma = new PrismaClient(
