@@ -2,7 +2,7 @@ import './styles/main.css';
 import { useState, useEffect } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 
-import logoImg from './assets/logo-nlw-esports.svg';
+import logoImg from './assets/-nlw-esports.svg';
 
 import { GameBanner } from './components/GameBanner';
 import { CreateAdBanner } from './components/CreateAdBanner';
